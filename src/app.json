@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/main",
+    "pages/search/main",
+    "pages/info/main"
+
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#055674",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "神州天气",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/main",
+      "text":"天气信息",
+      "iconPath": "static/images/wt.png",
+      "selectedIconPath": "static/images/wt-active.png"
+
+    },{
+      "pagePath": "pages/search/main",
+      "text": "选择城市",
+      "iconPath": "static/images/city.png",
+      "selectedIconPath": "static/images/city-active.png"
+    }
+    ]
+  }
+}
